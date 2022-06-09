@@ -1,6 +1,11 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import logo from "./logo.png";
+import logo from "./image/logo.png";
+import Laptop from "./image/Rectangle.png";
+import LineRec from "./image/lineRec.png";
+import Rafiki from "./image/rafiki.png";
+import Dot from "./image/dot.png";
+import Button from "react-bootstrap/Button";
 import "./design.css";
 
 const Design = () => {
@@ -37,7 +42,18 @@ const Design = () => {
           <div className="first">
             <p>OTIF Platform</p>
           </div>
-          <div className="second">second</div>
+          <h2 className="second">OPTIMIZATION OF GLOBAL SUPPLY CHAIN</h2>
+          <p className="third">
+            OTIF is the next dimension of consolidation, orchestration, and
+            optimization of the global supply chain networks, integrating
+            different production enterprises and logistics providers for your
+            convenience.
+          </p>
+          <Button className="btn" variant="outline-primary">
+            START
+          </Button>
+
+          <img src={Laptop} alt="lap" className="laptop" />
         </div>
 
         <div className="navigation">
@@ -45,6 +61,77 @@ const Design = () => {
           <div className="screen2">Use Cases</div>
           <div className="screen3">Resources</div>
           <div className="screen4">Company</div>
+        </div>
+      </div>
+
+      <div className="linedot">
+        <img src={LineRec} alt="LineRec" className="linerec" />
+        <img src={Dot} alt="dot" className="dot" />
+        <br />
+        <img src={Dot} alt="dot2" className="dot" />
+        <img src={LineRec} alt="LineRec2" className="linerec" />
+      </div>
+
+      <div className="cont1">
+        <div className="ele1">
+          <h2>Data Driven</h2>
+          <p>
+            We decided to use technology in logistics to habilitate transparent,
+            data-driven, and easy decisions for your business. Our technology is
+            your business’ competitive advantage. This brings decisions into the
+            user’s hands. Users choose to their company’s convenience the times,
+            prices, and modalities that they need and want.
+          </p>
+        </div>
+        <div className="ele2">
+          <img src={Rafiki} alt="raf" className="rafike" />
+        </div>
+      </div>
+
+      <div className="linedot linedot_sec">
+        <img src={LineRec} alt="LineRec" className="linerec" />
+        <img src={Dot} alt="dot" className="dot" />
+        <br />
+        <img src={Dot} alt="dot2" className="dot" />
+        <img src={LineRec} alt="LineRec2" className="linerec" />
+      </div>
+      <div className="cont3">
+        <div className="ele3">
+          <img src={Rafiki} alt="raf" className="rafike2" />
+        </div>
+
+        <div className="ele3 eld">
+          <h2>Data Driven</h2>
+          <p>
+            We decided to use technology in logistics to habilitate transparent,
+            data-driven, and easy decisions for your business. Our technology is
+            your business’ competitive advantage. This brings decisions into the
+            user’s hands. Users choose to their company’s convenience the times,
+            prices, and modalities that they need and want.
+          </p>
+        </div>
+      </div>
+
+      <div className="linedot">
+        <img src={LineRec} alt="LineRec" className="linerec" />
+        <img src={Dot} alt="dot" className="dot" />
+        <br />
+        <img src={Dot} alt="dot2" className="dot" />
+        <img src={LineRec} alt="LineRec2" className="linerec" />
+      </div>
+      <div className="cont1">
+        <div className="ele1">
+          <h2>Data Driven</h2>
+          <p>
+            We decided to use technology in logistics to habilitate transparent,
+            data-driven, and easy decisions for your business. Our technology is
+            your business’ competitive advantage. This brings decisions into the
+            user’s hands. Users choose to their company’s convenience the times,
+            prices, and modalities that they need and want.
+          </p>
+        </div>
+        <div className="ele2">
+          <img src={Rafiki} alt="raf" className="rafike" />
         </div>
       </div>
     </div>

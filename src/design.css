@@ -143,7 +143,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-image: url("./squareVec.png");
+  background-image: url("./image/squareVec.png");
   background-repeat: no-repeat;
   background-size: 40px;
   background-origin: content-box;
@@ -155,4 +155,105 @@
 .first > p {
   position: absolute;
   left: 70px;
+}
+
+.second {
+  position: absolute;
+  width: 25rem;
+  top: 15rem;
+  font-size: 32px;
+}
+
+.third {
+  position: absolute;
+  width: 600px;
+  top: 22rem;
+}
+
+.btn {
+  position: absolute;
+  top: 29rem;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  color: #291ef6;
+  font-weight: 600;
+}
+
+.laptop {
+  width: 700px;
+  position: absolute;
+  left: 35rem;
+  top: 3rem;
+}
+
+.linerec {
+  width: 12%;
+  margin-bottom: 2.5px;
+}
+
+.dot {
+  width: 10px;
+  margin-top: 5px;
+}
+
+.linedot {
+  margin-left: 19rem;
+  margin-top: 80px;
+}
+.linedot_sec > .dot {
+  width: 10px;
+  margin-top: 5px;
+}
+.linedot_sec {
+  margin-left: 40rem;
+  /* margin-top: 80px; */
+}
+
+.cont1 {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+  /* margin: 0 auto; */
+}
+
+.rafike {
+  width: 54%;
+}
+
+.ele1 > h2 {
+  margin-top: 3rem;
+}
+
+.ele1 > p {
+  width: 36rem;
+  /* margin-top: 4rem; */
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.ele2 > img {
+  margin-bottom: 5rem;
+}
+
+.rafike2 {
+  width: 54%;
+  margin-left: 255px;
+}
+
+.ele3 > p {
+  width: 40rem;
+}
+
+.eld {
+  margin-right: 241px;
+  margin-top: 42px;
+}
+
+.cont3 {
+  display: flex;
 }
