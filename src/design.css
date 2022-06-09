@@ -1,0 +1,158 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(180deg, #4c38ee 0%, #543dff 100%);
+  height: 50px;
+}
+
+.header > li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 10px;
+  align-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.main {
+  height: 600px;
+  border: 1px solid #4c38ee;
+  background: linear-gradient(
+    122.29deg,
+    #4c38ee 40.13%,
+    rgba(76, 56, 238, 0.3) 133.77%
+  );
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main > .logo {
+  margin-top: 20px;
+
+  position: relative;
+}
+
+.lg {
+  width: 40%;
+}
+
+.navigation {
+  display: flex;
+  margin-right: 40rem;
+}
+.navigation > div {
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.circle_b {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+
+  position: absolute;
+  z-index: 1;
+  left: 4px;
+
+  bottom: 520.5px;
+  background: linear-gradient(
+    122.29deg,
+    #4c38ee 40.13%,
+    rgba(76, 56, 238, 0.3) 133.77%
+  );
+}
+
+.t {
+  position: absolute;
+  left: 18px;
+  font-size: 38px;
+  bottom: -22px;
+}
+
+.t_d {
+  position: absolute;
+  left: 32px;
+  bottom: -15px;
+  font-size: 38px;
+}
+
+.line {
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  transform: rotate(90deg);
+  background: linear-gradient(
+    122.29deg,
+    #4c38ee 40.13%,
+    rgba(76, 56, 238, 0.3) 133.77%
+  );
+}
+
+.line2 {
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  left: 23.5px;
+  top: 5px;
+  transform: rotate(90deg);
+  background: linear-gradient(
+    122.29deg,
+    #4c38ee 40.13%,
+    rgba(76, 56, 238, 0.3) 133.77%
+  );
+}
+
+.line3 {
+  width: 20px;
+  height: 1.5px;
+  position: absolute;
+  left: 23.5px;
+  top: 5px;
+  transform: rotate(180deg);
+
+  background: linear-gradient(
+    122.29deg,
+    #4c38ee 40.13%,
+    rgba(76, 56, 238, 0.3) 133.77%
+  );
+}
+
+.text {
+  position: absolute;
+  left: 70px;
+  top: 0px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text2 {
+  position: absolute;
+  left: 25px;
+  font-weight: 600;
+}
+
+.first {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("./squareVec.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-origin: content-box;
+  background-position: 10px 10px;
+  top: 10rem;
+  background-color: #ffffff;
+}
+
+.first > p {
+  position: absolute;
+  left: 70px;
+}
