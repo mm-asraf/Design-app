@@ -4,7 +4,9 @@ import logo from "./image/logo.png";
 import Laptop from "./image/Rectangle.png";
 import LineRec from "./image/lineRec.png";
 import Rafiki from "./image/rafiki.png";
+import Amico from "./image/amico.png";
 import Dot from "./image/dot.png";
+import Corona from "./image/corona.png";
 import Button from "react-bootstrap/Button";
 import "./design.css";
 
@@ -97,7 +99,7 @@ const Design = () => {
       </div>
       <div className="cont3">
         <div className="ele3">
-          <img src={Rafiki} alt="raf" className="rafike2" />
+          <img src={Amico} alt="raf" className="rafike2" />
         </div>
 
         <div className="ele3 eld">
@@ -131,9 +133,30 @@ const Design = () => {
           </p>
         </div>
         <div className="ele2">
-          <img src={Rafiki} alt="raf" className="rafike" />
+          <img src={Corona} alt="raf" className="rafike" />
         </div>
       </div>
+
+      <div className="foo">
+        <div className="f1">
+          <h2>If you Have any Questions Contact Us </h2>
+          <p>
+            OTIF bring together all the packages in mexico and the world. otif
+            Products facilitate logistics for your company that operates on the
+            internet or in person.Our services includes
+          </p>
+        </div>
+        <div className="bt">
+          <button>Request a quote</button>
+        </div>
+      </div>
+
+      {/* <div className="footer">
+        <div className="foot">products</div>
+        <div className="foot">shipping</div>
+        <div className="foot">International shipping</div>
+        <div className="foot">parcels</div>
+      </div> */}
     </div>
   );
 };
